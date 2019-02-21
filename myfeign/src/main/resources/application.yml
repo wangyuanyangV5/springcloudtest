@@ -1,0 +1,19 @@
+server:
+  port: 8761
+
+
+
+#fegin client 开启日志
+logging:
+  level:
+    com.example.wangyang.service: debug
+
+#fegin 超时设置
+ribbon:
+  readTimeout: 120000
+  connecTimeout: 30000
+
+#feign 默认client的替换
+feign:
+    httpclient:
+        enable: true

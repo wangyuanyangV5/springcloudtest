@@ -3,6 +3,15 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/demo.iml" filepath="$PROJECT_DIR$/demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myconfigservice/myconfigservice.iml" filepath="$PROJECT_DIR$/myconfigservice/myconfigservice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myeurekaclient/myeurekaclient.iml" filepath="$PROJECT_DIR$/myeurekaclient/myeurekaclient.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myeurekaservice/myeurekaservice.iml" filepath="$PROJECT_DIR$/myeurekaservice/myeurekaservice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myfeign/myfeign.iml" filepath="$PROJECT_DIR$/myfeign/myfeign.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myfeignconsumer/myfeignconsumer.iml" filepath="$PROJECT_DIR$/myfeignconsumer/myfeignconsumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myfeignconsumer2.0/myfeignconsumer2.0.iml" filepath="$PROJECT_DIR$/myfeignconsumer2.0/myfeignconsumer2.0.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myfeignfileserver/myfeignfileserver.iml" filepath="$PROJECT_DIR$/myfeignfileserver/myfeignfileserver.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myfeignprovider/myfeignprovider.iml" filepath="$PROJECT_DIR$/myfeignprovider/myfeignprovider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myfeignproviderclient/myfeignproviderclient.iml" filepath="$PROJECT_DIR$/myfeignproviderclient/myfeignproviderclient.iml" />
     </modules>
   </component>
 </project>
