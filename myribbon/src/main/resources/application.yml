@@ -1,9 +1,10 @@
 server:
-  port: 8083
+  port: 8101
 
 spring:
   application:
-    name: my-feign-provider
+    name: my-ribbon-loadbalance
+
 eureka:
   client:
     service-url:
@@ -11,4 +12,3 @@ eureka:
 
   instance:
     prefer-ip-address: true
-    ip-address: 127.0.0.1

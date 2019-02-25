@@ -12,6 +12,7 @@
       <module fileurl="file://$PROJECT_DIR$/myfeignfileserver/myfeignfileserver.iml" filepath="$PROJECT_DIR$/myfeignfileserver/myfeignfileserver.iml" />
       <module fileurl="file://$PROJECT_DIR$/myfeignprovider/myfeignprovider.iml" filepath="$PROJECT_DIR$/myfeignprovider/myfeignprovider.iml" />
       <module fileurl="file://$PROJECT_DIR$/myfeignproviderclient/myfeignproviderclient.iml" filepath="$PROJECT_DIR$/myfeignproviderclient/myfeignproviderclient.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myribbon/myribbon.iml" filepath="$PROJECT_DIR$/myribbon/myribbon.iml" />
     </modules>
   </component>
 </project>

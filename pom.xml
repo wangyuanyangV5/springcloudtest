@@ -18,7 +18,8 @@
 		<module>myfeignfileserver</module>
 		<module>myfeignproviderclient</module>
 		<module>myfeignconsumer2.0</module>
-	</modules>
+        <module>myribbon</module>
+    </modules>
 
 
 	<name>demo</name>
