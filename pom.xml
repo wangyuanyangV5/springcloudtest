@@ -19,6 +19,7 @@
 		<module>myfeignproviderclient</module>
 		<module>myfeignconsumer2.0</module>
         <module>myribbon</module>
+        <module>myhystrix</module>
     </modules>
 
 

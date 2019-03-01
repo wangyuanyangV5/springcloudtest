@@ -16,6 +16,7 @@
         <module name="myfeignfileserver" />
         <module name="myfeignprovider" />
         <module name="myfeignproviderclient" />
+        <module name="myhystrix" />
         <module name="myribbon" />
       </profile>
     </annotationProcessing>
@@ -30,6 +31,7 @@
       <module name="myfeignfileserver" target="1.8" />
       <module name="myfeignprovider" target="1.8" />
       <module name="myfeignproviderclient" target="1.8" />
+      <module name="myhystrix" target="1.8" />
       <module name="myribbon" target="1.8" />
     </bytecodeTargetLevel>
   </component>
