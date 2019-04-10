@@ -22,6 +22,7 @@ public class HelloService extends HelloWorldServiceGrpc.HelloWorldServiceImplBas
     private static final Logger LOGGER =
             LoggerFactory.getLogger(HelloService.class);
 
+
     @Override
     public void sayHello(Person request,
                          StreamObserver<Greeting> responseObserver) {
