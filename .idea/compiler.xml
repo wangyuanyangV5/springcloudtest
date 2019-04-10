@@ -7,21 +7,23 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="myconfigservice" />
         <module name="myeurekaclient" />
-        <module name="myeurekaservice" />
-        <module name="myfeign" />
         <module name="myfeignconsumer" />
+        <module name="myfeign" />
         <module name="myfeignconsumer2.0" />
+        <module name="myconfigservice" />
         <module name="myfeignfileserver" />
         <module name="myfeignprovider" />
-        <module name="myfeignproviderclient" />
         <module name="myhystrix" />
+        <module name="grpcspringboothelloworld" />
+        <module name="myfeignproviderclient" />
+        <module name="myeurekaservice" />
         <module name="myribbon" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="demo" target="1.8" />
+      <module name="grpcspringboothelloworld" target="1.8" />
       <module name="myconfigservice" target="1.8" />
       <module name="myeurekaclient" target="1.8" />
       <module name="myeurekaservice" target="1.8" />
@@ -33,6 +35,23 @@
       <module name="myfeignproviderclient" target="1.8" />
       <module name="myhystrix" target="1.8" />
       <module name="myribbon" target="1.8" />
+      <module name="springcloudtest" target="1.8" />
     </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="grpcspringboothelloworld" options="-parameters" />
+      <module name="myconfigservice" options="-parameters" />
+      <module name="myeurekaclient" options="-parameters" />
+      <module name="myeurekaservice" options="-parameters" />
+      <module name="myfeign" options="-parameters" />
+      <module name="myfeignconsumer" options="-parameters" />
+      <module name="myfeignconsumer2.0" options="-parameters" />
+      <module name="myfeignfileserver" options="-parameters" />
+      <module name="myfeignprovider" options="-parameters" />
+      <module name="myfeignproviderclient" options="-parameters" />
+      <module name="myhystrix" options="-parameters" />
+      <module name="myribbon" options="-parameters" />
+    </option>
   </component>
 </project>
